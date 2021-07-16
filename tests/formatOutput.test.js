@@ -1,5 +1,5 @@
 const { test, expect } = require("@jest/globals");
-const { formatOutput } = require("../lib/format");
+const { arrayToStrings } = require("../lib/format");
 
 test("Formats result with two elements", () => {
 
@@ -9,7 +9,7 @@ test("Formats result with two elements", () => {
     ];
     let output = `the sperm whale - 85\nof the whale - 67\n`;
 
-    expect(formatOutput(result)).toBe(output);
+    expect(arrayToStrings(result)).toBe(output);
 });
 
 test("Returns empty string if input array is empty", () => {
@@ -17,5 +17,5 @@ test("Returns empty string if input array is empty", () => {
     let result = [];
     let output = '';
 
-    expect(formatOutput(result)).toBe(output);
+    expect(arrayToStrings(result)).toBe(output);
 });
