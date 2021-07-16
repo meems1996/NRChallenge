@@ -46,6 +46,6 @@ There were quite a few assumptions I made during development.
 
 ## Are there bugs that you are aware of?  
 Yes, there is one I noticed but did not have the time to investigate deeper. I am sure if I had more time to look into it, more would show up too :)
-* From time to time I noticed that some files merge some of their words together especially if I have end of line followed by a word without. This could be remedied by better filtering of the text (removing punctuations, looking into edge cases...).
+* From time to time I noticed that some files merge some of their words together especially if I have end of line followed by a word without space. This could be remedied by better filtering of the text (removing punctuations, looking into edge cases...).
 
 
