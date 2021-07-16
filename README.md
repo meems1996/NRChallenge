@@ -41,7 +41,7 @@ There is quite a bit more I would do if given more time (I tried to list them in
 ## Any assumptions made during development
 There were quite a few assumptions I made during development. 
 * I assumed I can count integers as part of the words. My thought process here is that if a particular street number in a novel is mentioned a lot we could catch that. 
-* I assumed that the files passed will be .text files. I did not have the time to test more. 
+* I assumed that the files passed will be .text files. I did not have the time to test more file extensions but would have liked to. 
 * I assume that I can return all the top 100, even if all sequences are mentioned equal amount of time, the program returns the top 100 (or less if the file is short) in order of whichever one made it into the Map first. 
 
 ## Are there bugs that you are aware of?  
