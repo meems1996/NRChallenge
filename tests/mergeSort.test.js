@@ -1,4 +1,4 @@
-const mergeSort = require('../mergeSort.js');
+const mergeSort = require('../lib/mergeSort');
 const { expect } = require('@jest/globals');
 
 test("If only one element is present, return the element", () => {

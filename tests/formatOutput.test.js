@@ -1,5 +1,5 @@
 const { test, expect } = require("@jest/globals");
-const { formatOutput, formatLines } = require("../format");
+const { formatOutput } = require("../lib/format");
 
 test("Formats result with two elements", () => {
 
@@ -18,13 +18,4 @@ test("Returns empty string if input array is empty", () => {
     let output = '';
 
     expect(formatOutput(result)).toBe(output);
-});
-
-test("Remove punctuations from lines.", () => {
-    expect(8).toBe(7);
-
-});
-
-test ("Don't remove apostrophes", () => {
-    expect(8).toBe(7);
 });
